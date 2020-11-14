@@ -7,3 +7,4 @@
 | remove apt package                    |    sudo apt-get remove <package name>     |
 | remove apt package with config file   | sudo apt-get remove --purge <package name |
 | remove old cache and outdated package |            sudo apt-get clean             |
+| move file to protected section        | sudo mv <filename> <location> eg: sudo mv test.txt /usr/share |
