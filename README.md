@@ -12,3 +12,4 @@
 | show directory tree | tree |
 | show directory tree with level  | tree -L <level value 1+ > eg: tree -L 1 |
 | save directory tree with level | tree -L <level value 1+> --charset unicode > fileName.txt eg: tree -L 2 --charset unicode /home/<username>/Desktop/filename.txt |
+| remove hidden file from remote repo | git rm -r --cached <filename/foldername> NB: add and commit after executing the command |
