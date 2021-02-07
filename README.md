@@ -18,3 +18,4 @@
 | convert webm video to mp4 using ffmpeg                                                                                                                     |                                             `ffmpeg -i video_from.webm video_to.mp4`                                              |
 |compress mp4 using ffmpeg | ```ffmpeg -i input.mp4 -vcodec h264 -acodec mp2 output.mp4```
 |
+|convert webm to mp4 using ffmpeg fast|```ffmpeg -i one.webm -r 10 -cpu-used 5 -c:v libx264 -crf 20 -c:a aac -strict experimental -loglevel error one.mp4```|
