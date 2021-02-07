@@ -16,3 +16,5 @@
 | find difference between two directories, [reference](https://www.tecmint.com/compare-find-difference-between-two-directories-in-linux/)                    |                                               `diff -q directory-1/ directory-2/ `                                                |
 | find difference between two directories and sub directoried [reference](https://www.tecmint.com/compare-find-difference-between-two-directories-in-linux/) |                                               `diff -qr directory-1/ directory-2/`                                                |
 | convert webm video to mp4 using ffmpeg                                                                                                                     |                                             `ffmpeg -i video_from.webm video_to.mp4`                                              |
+|compress mp4 using ffmpeg | ```ffmpeg -i input.mp4 -vcodec h264 -acodec mp2 output.mp4```
+|
